@@ -10,6 +10,7 @@ googleAnalytics         = "G-TLTCTM90Y1"
 pluralizeListTitles     = false
 disableLanguages        = []
 disableKinds = [] # "taxonomy", "term"
+DisqusShortname = "benmackgithubio"
 
 [taxonomies]
     category = "categories"
