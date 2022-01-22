@@ -6,11 +6,12 @@ title                   = "Ben's Blog"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
-googleAnalytics         = "G-TLTCTM90Y1"
+# the build in googleAnalytics did not work for me 
+# => layouts/partials/my-googleanalytics-hack.html
+# googleAnalytics         = "G-TLTCTM90Y1"
 pluralizeListTitles     = false
 disableLanguages        = []
 disableKinds = [] # "taxonomy", "term"
-DisqusShortname = "benmackgithubio"
 
 [taxonomies]
     category = "categories"
@@ -76,17 +77,13 @@ DisqusShortname = "benmackgithubio"
     rssFooter           = true
     socialFooter        = true
 
-  [params.staticman]
-    enabled             = false
-    api                 = ""
-    gitProvider         = ""
-    username            = ""
-    repo                = ""
-    branch              = ""
-
-    [params.staticman.recaptcha]
-      siteKey           = ""
-      encryptedKey      = ""
+  [params.utterances]
+    enabled="true"
+    repo="benmack/benmack.github.io"
+    issueTerm="pathname"
+    label="utterances-comment"
+    theme="github-light"
+    crossorigin="anonymous"
 
 [menu]
 
