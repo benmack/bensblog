@@ -77,14 +77,6 @@ disableKinds = [] # "taxonomy", "term"
     rssFooter           = true
     socialFooter        = true
 
-  [params.utterances]
-    enabled="true"
-    repo="benmack/benmack.github.io"
-    issueTerm="pathname"
-    label="utterances-comment"
-    theme="github-light"
-    crossorigin="anonymous"
-
 [menu]
 
   [[menu.main]]
